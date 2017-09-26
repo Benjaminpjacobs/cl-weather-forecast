@@ -1,5 +1,6 @@
 require 'net/http'
 require 'json'
+require 'yaml'
 
 class DarkskyService
   attr_reader :coordinates, :key

@@ -36,7 +36,7 @@ class WeatherFormatter
     
     def format_value(measurement, value)
       if time?(measurement)
-        "#{measurement.capitalize}: #{format_time(value)}"
+        "#{format_measurement_name(measurement)}: #{format_time(value)}"
       else
         "#{format_measurement_name(measurement)}: #{value}"
       end
@@ -67,7 +67,14 @@ class WeatherFormatter
     end
 
     def time?(measurement)
-      measurement == 'time'
+      measurement == 'time' ||
+      measurement == 'sunriseTime' ||
+      measurement == 'sunsetTime' ||
+      measurement == 'precipIntensityMaxTime' ||
+      measurement == 'temperatureMinTime' ||
+      measurement == 'temperatureMaxTime' ||
+      measurement == 'apparentTemperatureMinTime' ||
+      measurement == 'apparentTemperatureMaxTime'
     end
 
     def icon?(measurement)

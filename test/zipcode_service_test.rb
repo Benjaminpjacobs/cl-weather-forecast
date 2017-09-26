@@ -3,7 +3,7 @@ require 'pry'
 require 'minitest/autorun'
 require_relative '../lib/zipcode_service.rb'
 
-class ForecasterTest < Minitest::Test
+class ZipcodeserviceTest < Minitest::Test
   def test_it_exists
     zs = ZipcodeService.new('80210')
     assert_instance_of ZipcodeService, zs
@@ -12,7 +12,7 @@ class ForecasterTest < Minitest::Test
   def test_it_returns_coordinates
     zs = ZipcodeService.new('80210')
     result = zs.get_lat_lng    
-
+    
     assert_instance_of Hash, result
     refute_nil result[:lat]
     refute_nil result[:lng]
