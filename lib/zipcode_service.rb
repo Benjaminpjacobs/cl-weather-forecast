@@ -8,7 +8,6 @@ class ZipcodeService
   def initialize(zipcode)
     @zipcode = zipcode
     @key = YAML::load(File.read('.config.yml'))['ZIPCODE_API']
-    binding.pry
   end
 
   def get_lat_lng
