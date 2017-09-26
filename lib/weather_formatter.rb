@@ -14,11 +14,8 @@ class WeatherFormatter
     attr_reader :weather, :granularity
 
     def format_dataset(weather)
-      if weather['data']
-        format_each_set(weather['data'])
-      else
-        format_single_set(weather) 
-      end
+      data = weather['data']
+      data ? format_each_set(data) : format_single_set(weather) 
     end
 
     def format_each_set(data)
@@ -35,11 +32,10 @@ class WeatherFormatter
     end
     
     def format_value(measurement, value)
-      if time?(measurement)
-        "#{format_measurement_name(measurement)}: #{format_time(value)}"
-      else
-        "#{format_measurement_name(measurement)}: #{value}"
-      end
+      measure = format_measurement_name(measurement)
+      value    = time?(measurement) ? format_time(value) : value
+      
+      "#{measure}: #{value}"
     end
 
     def format_measurement_name(measurement)
