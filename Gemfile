@@ -1,1 +1,1 @@
-require 'pry'
+gem 'pry'
