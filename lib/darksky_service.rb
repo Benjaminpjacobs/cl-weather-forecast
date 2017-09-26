@@ -6,7 +6,7 @@ class DarkskyService
 
   def initialize(coordinates)
     @coordinates = coordinates
-    @key = '640644acf3d2e971e41cef9646c4f0aa'
+    @key = @key = YAML::load(File.read('.config.yml'))['DARKSKY_API']
   end
 
   def get_forecast

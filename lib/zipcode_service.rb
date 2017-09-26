@@ -1,12 +1,14 @@
 require 'net/http'
 require 'json'
+require 'yaml'
 
 class ZipcodeService
   attr_reader :key, :zipcode
   
   def initialize(zipcode)
     @zipcode = zipcode
-    @key = 'yruKeJMZU3uXpx42ZmxaLpiCyjzgmF5V6zFkiskdvPaVmfXlCvwoUP0s8AJvgOqn'
+    @key = YAML::load(File.read('.config.yml'))['ZIPCODE_API']
+    binding.pry
   end
 
   def get_lat_lng
