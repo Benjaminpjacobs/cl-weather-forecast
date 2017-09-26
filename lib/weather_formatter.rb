@@ -29,7 +29,7 @@ class WeatherFormatter
     end
 
     def format_single_set(data)
-      data.map{ |measurement, value| icon?(measurement) ? next : format_value(measurement, value) }
+      data.map{ |measurement, value| skip?(measurement) ? next : format_value(measurement, value) }
           .compact
           .join(" \n")
     end
@@ -71,13 +71,19 @@ class WeatherFormatter
       measurement == 'sunriseTime' ||
       measurement == 'sunsetTime' ||
       measurement == 'precipIntensityMaxTime' ||
-      measurement == 'temperatureMinTime' ||
+      measurement == 'temperatureHighTime' ||
+      measurement == 'temperatureLowTime' ||
       measurement == 'temperatureMaxTime' ||
+      measurement == 'temperatureMinTime' ||
+      measurement == 'apparentTemperatureHighTime' ||
+      measurement == 'apparentTemperatureLowTime' ||
       measurement == 'apparentTemperatureMinTime' ||
-      measurement == 'apparentTemperatureMaxTime'
+      measurement == 'apparentTemperatureMaxTime' ||
+      measurement == 'windGustTime' ||
+      measurement == 'uvIndexTime'
     end
 
-    def icon?(measurement)
-      measurement === 'icon' 
+    def skip?(measurement)
+      measurement === 'icon'
     end
 end

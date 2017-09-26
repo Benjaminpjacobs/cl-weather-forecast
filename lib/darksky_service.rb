@@ -13,6 +13,7 @@ class DarkskyService
   def get_forecast
     response  = Net::HTTP.get(URI "https://api.darksky.net/forecast/#{key}/#{coordinates[:lat]},#{coordinates[:lng]}")  
     parsed    = JSON.parse(response)
+    binding.pry
     unless parsed["error"]
       parsed
     end

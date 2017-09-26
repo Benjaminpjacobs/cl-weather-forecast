@@ -10,7 +10,7 @@ class WeatherFormatterTest < Minitest::Test
     assert_instance_of WeatherFormatter, wf
   end
 
-  def test_it_formats_daily
+  def test_it_formats_currently
     weather = { "latitude"=>0.692488,
                 "longitude"=>-1.83194,
                 "timezone"=>"Etc/GMT",
@@ -54,6 +54,60 @@ class WeatherFormatterTest < Minitest::Test
     result = wf.format_weather
     assert_equal expected, result
   end
+
+  def test_it_formats_minutely
+    weather = { "latitude"=>0.692488,
+                "longitude"=>-1.83194,
+                "timezone"=>"Etc/GMT",
+                "minutely"=>
+                {"summary"=>"Partly cloudy for the hour.",
+                 "icon"=>"partly-cloudy-day",
+                 "data"=>
+                  [
+                    {"time"=>1506462240, "precipIntensity"=>0.005, "precipIntensityError"=>0.004, "precipProbability"=>0.01, "precipType"=>"rain"},
+                    {"time"=>1506462300, "precipIntensity"=>0.005, "precipIntensityError"=>0.005, "precipProbability"=>0.01, "precipType"=>"rain"},
+                    {"time"=>1506462360, "precipIntensity"=>0.005, "precipIntensityError"=>0.004, "precipProbability"=>0.01, "precipType"=>"rain"},
+                    {"time"=>1506462420, "precipIntensity"=>0.005, "precipIntensityError"=>0.004, "precipProbability"=>0.01, "precipType"=>"rain"},
+                    {"time"=>1506462480, "precipIntensity"=>0.005, "precipIntensityError"=>0.004, "precipProbability"=>0.01, "precipType"=>"rain"}
+                  ]
+                }
+              }
+    expected =  "Minutely Summary: Partly cloudy for the hour. \n" +
+                "\n" +
+                "Time: September 26, 2017 at 03:44PM \n" +
+                "Precip Intensity: 0.005 \n" +
+                "Precip Intensity Error: 0.004 \n" +
+                "Precip Probability: 0.01 \n" +
+                "Precip Type: rain \n" +
+                "\n" +
+                "Time: September 26, 2017 at 03:45PM \n" +
+                "Precip Intensity: 0.005 \n" +
+                "Precip Intensity Error: 0.005 \n" +
+                "Precip Probability: 0.01 \n" +
+                "Precip Type: rain \n" +
+                "\n" +
+                "Time: September 26, 2017 at 03:46PM \n" +
+                "Precip Intensity: 0.005 \n" +
+                "Precip Intensity Error: 0.004 \n" +
+                "Precip Probability: 0.01 \n" +
+                "Precip Type: rain \n" +
+                "\n" +
+                "Time: September 26, 2017 at 03:47PM \n" +
+                "Precip Intensity: 0.005 \n" +
+                "Precip Intensity Error: 0.004 \n" +
+                "Precip Probability: 0.01 \n" +
+                "Precip Type: rain \n" +
+                "\n" +
+                "Time: September 26, 2017 at 03:48PM \n" +
+                "Precip Intensity: 0.005 \n" +
+                "Precip Intensity Error: 0.004 \n" +
+                "Precip Probability: 0.01 \n" +
+                "Precip Type: rain"
+    wf = WeatherFormatter.new('minutely', weather)
+    result = wf.format_weather
+    assert_equal expected, result
+  end
+  
   def test_it_formats_hourly
     weather = { "latitude"=>0.692488,
                 "longitude"=>-1.83194,

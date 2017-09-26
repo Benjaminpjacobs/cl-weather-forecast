@@ -11,9 +11,8 @@ class ZipcodeService
   end
 
   def get_lat_lng
-    response  = Net::HTTP.get(URI "https://www.zipcodeapi.com/rest/#{key}/info.json/#{zipcode}/radians")
+    response  = Net::HTTP.get(URI "https://www.zipcodeapi.com/rest/#{key}/info.json/#{zipcode}/degrees")
     parsed    = JSON.parse(response, symbolize_names: true)
-    
     unless parsed[:error_code]
       {lat: parsed[:lat], lng: parsed[:lng]}
     end
