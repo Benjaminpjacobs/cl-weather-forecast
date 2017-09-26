@@ -17,7 +17,6 @@ class Forecaster
     
     forecast    = retrieve_forecast(coordinates)
     return puts "There was a network problem trying to reach The DarkSky API" unless forecast
-    
     formatted   = format_weather(forecast)
     
     puts output ? write_file(formatted) : formatted
