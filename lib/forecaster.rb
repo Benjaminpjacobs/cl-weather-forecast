@@ -1,4 +1,3 @@
-require 'pry'
 require "./lib/zipcode_service.rb"
 require "./lib/darksky_service.rb"
 require "./lib/weather_formatter.rb"
