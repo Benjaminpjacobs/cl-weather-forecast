@@ -1,7 +1,7 @@
 require 'pry'
 require "./lib/zipcode_service.rb"
 require "./lib/darksky_service.rb"
-# require "./lib/weather_formatter.rb"
+require "./lib/weather_formatter.rb"
 
 class Forecaster
   attr_reader :zipcode, :granularity, :output
