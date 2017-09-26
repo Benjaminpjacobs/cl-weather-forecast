@@ -5,12 +5,12 @@ require "./lib/weather_formatter.rb"
 
 class Forecaster
   attr_reader :zipcode, :granularity, :output
+  
   def initialize(args)
-    @zipcode = args[0] || nil
-    @granularity = args[1] || nil
-    @output = args[2] || nil
+    @zipcode = args[0]
+    @granularity = args[1]
+    @output = args[2]
   end
-
   
   def print_weather
     coordinates = retrieve_coordinates
