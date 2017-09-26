@@ -11,24 +11,42 @@ class Forecaster
     @output = args[2] || nil
   end
 
-  def retrieve_coordinates
-    zcs = ZipcodeService.new(zipcode)
-    zcs.get_lat_lng
-  end
-
-  def retrieve_forecast
-    coordinates = retrieve_coordinates
-    dss = DarkskyService.new(coordinates)
-    dss.get_forecast
-  end
-
+  
   def print_weather
-    forecast = retrieve_forecast
-    formatter = WeatherFormatter.new(granularity, forecast)
-    formatted = formatter.format_weather
-    puts formatted
+    coordinates = retrieve_coordinates
+    return puts "There was a network problem trying to reach The Zipcode Api" unless coordinates
+    
+    forecast    = retrieve_forecast(coordinates)
+    return puts "There was a network problem trying to reach The DarkSky API" unless forecast
+    
+    formatted   = format_weather(forecast)
+    
+    puts output ? write_file(formatted) : formatted
   end
   
+  private
+
+    def format_weather(forecast)
+      formatter   = WeatherFormatter.new(granularity, forecast)
+      formatter.format_weather
+    end
+
+    def retrieve_coordinates
+      zcs = ZipcodeService.new(zipcode)
+      zcs.get_lat_lng
+    end
+
+    def retrieve_forecast(coordinates)
+      dss = DarkskyService.new(coordinates)
+      dss.get_forecast
+    end
+  
+    def write_file(formatted)
+      file = File.open(output, 'a')
+      file.write(formatted)
+      file.close
+      "Results written to #{output}"
+    end
 end
 
 ######
