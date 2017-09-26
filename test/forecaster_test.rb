@@ -5,11 +5,11 @@ require 'webmock/rspec'
 
 WebMock.stub_request(:get, "https://www.zipcodeapi.com/rest/yruKeJMZU3uXpx42ZmxaLpiCyjzgmF5V6zFkiskdvPaVmfXlCvwoUP0s8AJvgOqn/info.json//degrees").
 with(headers: {'Accept'=>'*/*', 'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3', 'Host'=>'www.zipcodeapi.com', 'User-Agent'=>'Ruby'}).
-to_return(status: 200, body: "{\"lat\":\"\",\"lng\":\"\"}", headers: {})
+to_return(status: 200, body: "{}", headers: {})
 
 WebMock.stub_request(:get, "https://api.darksky.net/forecast/640644acf3d2e971e41cef9646c4f0aa/,").
 with(headers: {'Accept'=>'*/*', 'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3', 'Host'=>'api.darksky.net', 'User-Agent'=>'Ruby'}).
-to_return(status: 200, body: "{\"latitude\": \"\", \"longitude\": \"\", \"timezone\": \"\", \"currently\": \"\", \"hourly\":\"\", \"daily\":\"\" }", headers: {})
+to_return(status: 200, body: "{}", headers: {})
 
 WebMock.stub_request(:get, "https://www.zipcodeapi.com/rest/yruKeJMZU3uXpx42ZmxaLpiCyjzgmF5V6zFkiskdvPaVmfXlCvwoUP0s8AJvgOqn/info.json/80210/degrees").
 with(headers: {'Accept'=>'*/*', 'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3', 'Host'=>'www.zipcodeapi.com', 'User-Agent'=>'Ruby'}).
@@ -51,6 +51,7 @@ class ForecasterTest < Minitest::Test
 
     forecaster = Forecaster.new(['80210', 'currently', 'temp_file.txt'])
     forecaster.print_weather
+    sleep 1
     result = File.readlines('temp_file.txt')
     File.delete('temp_file.txt')
     
