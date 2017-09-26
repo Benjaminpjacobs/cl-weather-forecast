@@ -25,4 +25,4 @@
 
 ## To Test
 
-Make sure the setup has been correctly done(tests require api connection) and simply run `rake`
+run `rake` to initiate test suite
