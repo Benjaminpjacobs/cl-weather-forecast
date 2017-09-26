@@ -22,3 +22,7 @@
 * if you included a file that file will have the requested info and a message will display for a successful write
 * if you did not include a file the requested info will be outputted to the console
 * if there was an error you will be notified
+
+## To Test
+
+Make sure the setup has been correctly done(tests require api connection) and simply run `rake`
