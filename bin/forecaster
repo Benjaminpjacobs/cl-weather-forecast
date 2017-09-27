@@ -1,0 +1,25 @@
+#!/usr/bin/env ruby
+require 'optparse'
+require_relative '../lib/forecaster.rb'
+
+OptionParser.new do |parser|
+  parser.on("-z", "--zipcode ZIPCODE",
+            "get a weather report for the zipcode ZIPCODE") do |zipcode|
+    @zipcode = zipcode
+  end
+  parser.on("-g", "--granularity GRANULARITY",
+            "get a weather report with the granularity GRANULARITY") do |granularity|
+    @granularity = granularity
+  end
+  parser.on("-o", "--outfile OUTFILE",
+            "write the weather report to the file OUTFILE") do |outfile|
+    @outfile = outfile
+  end
+end.parse!
+
+def main
+  forecast = Forecaster.new([@zipcode, @granularity, @outfile])
+  forecast.print_weather
+end
+
+main

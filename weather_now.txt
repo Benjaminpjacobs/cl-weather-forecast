@@ -1,0 +1,883 @@
+Hourly Summary: Light rain starting later this evening, continuing until tomorrow morning. 
+
+Time: September 26, 2017 at 06:00PM 
+Summary: Mostly Cloudy 
+Precip Intensity: 0.0041 
+Precip Probability: 0.05 
+Precip Type: rain 
+Temperature: 58.27 
+Apparent Temperature: 58.27 
+Dew Point: 42.48 
+Humidity: 0.56 
+Pressure: 1018.15 
+Wind Speed: 3.29 
+Wind Gust: 7.75 
+Wind Bearing: 13 
+Cloud Cover: 0.84 
+Uv Index: 0 
+Visibility: 5.9 
+Ozone: 279.93 
+
+Time: September 26, 2017 at 07:00PM 
+Summary: Drizzle 
+Precip Intensity: 0.0062 
+Precip Probability: 0.14 
+Precip Type: rain 
+Temperature: 55.94 
+Apparent Temperature: 55.94 
+Dew Point: 42.42 
+Humidity: 0.6 
+Pressure: 1018.83 
+Wind Speed: 3.91 
+Wind Gust: 7.94 
+Wind Bearing: 25 
+Cloud Cover: 0.89 
+Uv Index: 0 
+Visibility: 9.16 
+Ozone: 280.6 
+
+Time: September 26, 2017 at 08:00PM 
+Summary: Light Rain 
+Precip Intensity: 0.0382 
+Precip Probability: 0.27 
+Precip Type: rain 
+Temperature: 53.1 
+Apparent Temperature: 53.1 
+Dew Point: 43.06 
+Humidity: 0.69 
+Pressure: 1020.11 
+Wind Speed: 4.21 
+Wind Gust: 6.66 
+Wind Bearing: 25 
+Cloud Cover: 0.88 
+Uv Index: 0 
+Visibility: 8.78 
+Ozone: 281.38 
+
+Time: September 26, 2017 at 09:00PM 
+Summary: Light Rain 
+Precip Intensity: 0.0414 
+Precip Probability: 0.34 
+Precip Type: rain 
+Temperature: 50.83 
+Apparent Temperature: 50.83 
+Dew Point: 43.97 
+Humidity: 0.77 
+Pressure: 1021.23 
+Wind Speed: 4.27 
+Wind Gust: 7.66 
+Wind Bearing: 20 
+Cloud Cover: 0.92 
+Uv Index: 0 
+Visibility: 10 
+Ozone: 281.69 
+
+Time: September 26, 2017 at 10:00PM 
+Summary: Light Rain 
+Precip Intensity: 0.0308 
+Precip Probability: 0.31 
+Precip Type: rain 
+Temperature: 50.12 
+Apparent Temperature: 50.12 
+Dew Point: 44.39 
+Humidity: 0.81 
+Pressure: 1021.74 
+Wind Speed: 3.98 
+Wind Gust: 8.25 
+Wind Bearing: 28 
+Cloud Cover: 0.84 
+Uv Index: 0 
+Visibility: 10 
+Ozone: 281.06 
+
+Time: September 26, 2017 at 11:00PM 
+Summary: Light Rain 
+Precip Intensity: 0.0247 
+Precip Probability: 0.28 
+Precip Type: rain 
+Temperature: 49.51 
+Apparent Temperature: 49.04 
+Dew Point: 44.48 
+Humidity: 0.83 
+Pressure: 1022.1 
+Wind Speed: 3.09 
+Wind Gust: 7.72 
+Wind Bearing: 11 
+Cloud Cover: 0.77 
+Uv Index: 0 
+Visibility: 10 
+Ozone: 279.97 
+
+Time: September 27, 2017 at 12:00AM 
+Summary: Light Rain 
+Precip Intensity: 0.0108 
+Precip Probability: 0.18 
+Precip Type: rain 
+Temperature: 49.01 
+Apparent Temperature: 49.01 
+Dew Point: 44.57 
+Humidity: 0.85 
+Pressure: 1022.36 
+Wind Speed: 2.1 
+Wind Gust: 6.67 
+Wind Bearing: 328 
+Cloud Cover: 0.65 
+Uv Index: 0 
+Visibility: 10 
+Ozone: 278.85 
+
+Time: September 27, 2017 at 01:00AM 
+Summary: Partly Cloudy 
+Precip Intensity: 0.0047 
+Precip Probability: 0.11 
+Precip Type: rain 
+Temperature: 48.63 
+Apparent Temperature: 48.63 
+Dew Point: 44.48 
+Humidity: 0.86 
+Pressure: 1022.55 
+Wind Speed: 2.31 
+Wind Gust: 5.31 
+Wind Bearing: 68 
+Cloud Cover: 0.53 
+Uv Index: 0 
+Visibility: 10 
+Ozone: 277.56 
+
+Time: September 27, 2017 at 02:00AM 
+Summary: Partly Cloudy 
+Precip Intensity: 0.001 
+Precip Probability: 0.04 
+Precip Type: rain 
+Temperature: 48.21 
+Apparent Temperature: 48.21 
+Dew Point: 44.41 
+Humidity: 0.87 
+Pressure: 1022.59 
+Wind Speed: 2.39 
+Wind Gust: 3.68 
+Wind Bearing: 190 
+Cloud Cover: 0.56 
+Uv Index: 0 
+Visibility: 9.88 
+Ozone: 276.13 
+
+Time: September 27, 2017 at 03:00AM 
+Summary: Partly Cloudy 
+Precip Intensity: 0.0001 
+Precip Probability: 0.01 
+Precip Type: rain 
+Temperature: 47.44 
+Apparent Temperature: 47.44 
+Dew Point: 44.24 
+Humidity: 0.89 
+Pressure: 1022.9 
+Wind Speed: 1.44 
+Wind Gust: 3.01 
+Wind Bearing: 302 
+Cloud Cover: 0.55 
+Uv Index: 0 
+Visibility: 9.51 
+Ozone: 275.08 
+
+Time: September 27, 2017 at 04:00AM 
+Summary: Partly Cloudy 
+Precip Intensity: 0.0014 
+Precip Probability: 0.05 
+Precip Type: rain 
+Temperature: 46.87 
+Apparent Temperature: 46.87 
+Dew Point: 44.03 
+Humidity: 0.9 
+Pressure: 1023.26 
+Wind Speed: 2.32 
+Wind Gust: 3.23 
+Wind Bearing: 165 
+Cloud Cover: 0.46 
+Uv Index: 0 
+Visibility: 9.14 
+Ozone: 274.61 
+
+Time: September 27, 2017 at 05:00AM 
+Summary: Mostly Cloudy 
+Precip Intensity: 0.0001 
+Precip Probability: 0.02 
+Precip Type: rain 
+Temperature: 45.58 
+Apparent Temperature: 45.58 
+Dew Point: 43.06 
+Humidity: 0.91 
+Pressure: 1024.17 
+Wind Speed: 1.9 
+Wind Gust: 2.82 
+Wind Bearing: 77 
+Cloud Cover: 0.6 
+Uv Index: 0 
+Visibility: 10 
+Ozone: 274.39 
+
+Time: September 27, 2017 at 06:00AM 
+Summary: Partly Cloudy 
+Precip Intensity: 0.0017 
+Precip Probability: 0.07 
+Precip Type: rain 
+Temperature: 44.56 
+Apparent Temperature: 44.56 
+Dew Point: 43.57 
+Humidity: 0.96 
+Pressure: 1023.8 
+Wind Speed: 1.82 
+Wind Gust: 4.04 
+Wind Bearing: 42 
+Cloud Cover: 0.54 
+Uv Index: 0 
+Visibility: 9.05 
+Ozone: 274.27 
+
+Time: September 27, 2017 at 07:00AM 
+Summary: Partly Cloudy 
+Precip Intensity: 0.001 
+Precip Probability: 0.05 
+Precip Type: rain 
+Temperature: 43.58 
+Apparent Temperature: 43.58 
+Dew Point: 43.43 
+Humidity: 0.99 
+Pressure: 1023.96 
+Wind Speed: 2.1 
+Wind Gust: 3.52 
+Wind Bearing: 38 
+Cloud Cover: 0.57 
+Uv Index: 0 
+Visibility: 9.03 
+Ozone: 274.37 
+
+Time: September 27, 2017 at 08:00AM 
+Summary: Drizzle 
+Precip Intensity: 0.0058 
+Precip Probability: 0.19 
+Precip Type: rain 
+Temperature: 44.24 
+Apparent Temperature: 44.24 
+Dew Point: 43.65 
+Humidity: 0.98 
+Pressure: 1024.85 
+Wind Speed: 2.84 
+Wind Gust: 3.51 
+Wind Bearing: 40 
+Cloud Cover: 0.9 
+Uv Index: 0 
+Visibility: 10 
+Ozone: 274.68 
+
+Time: September 27, 2017 at 09:00AM 
+Summary: Light Rain 
+Precip Intensity: 0.0102 
+Precip Probability: 0.28 
+Precip Type: rain 
+Temperature: 45.77 
+Apparent Temperature: 44.5 
+Dew Point: 44.01 
+Humidity: 0.94 
+Pressure: 1024.89 
+Wind Speed: 3.41 
+Wind Gust: 3.92 
+Wind Bearing: 35 
+Cloud Cover: 1 
+Uv Index: 1 
+Visibility: 10 
+Ozone: 274.53 
+
+Time: September 27, 2017 at 10:00AM 
+Summary: Drizzle 
+Precip Intensity: 0.0091 
+Precip Probability: 0.25 
+Precip Type: rain 
+Temperature: 48.01 
+Apparent Temperature: 46.66 
+Dew Point: 44.27 
+Humidity: 0.87 
+Pressure: 1024.79 
+Wind Speed: 3.89 
+Wind Gust: 4.64 
+Wind Bearing: 45 
+Cloud Cover: 1 
+Uv Index: 2 
+Visibility: 10 
+Ozone: 273.55 
+
+Time: September 27, 2017 at 11:00AM 
+Summary: Drizzle 
+Precip Intensity: 0.0056 
+Precip Probability: 0.18 
+Precip Type: rain 
+Temperature: 49.87 
+Apparent Temperature: 48.47 
+Dew Point: 44.48 
+Humidity: 0.82 
+Pressure: 1024.6 
+Wind Speed: 4.36 
+Wind Gust: 5.56 
+Wind Bearing: 69 
+Cloud Cover: 1 
+Uv Index: 3 
+Visibility: 10 
+Ozone: 272.32 
+
+Time: September 27, 2017 at 12:00PM 
+Summary: Overcast 
+Precip Intensity: 0.0034 
+Precip Probability: 0.13 
+Precip Type: rain 
+Temperature: 51.37 
+Apparent Temperature: 51.37 
+Dew Point: 44.52 
+Humidity: 0.77 
+Pressure: 1024.28 
+Wind Speed: 4.83 
+Wind Gust: 6.33 
+Wind Bearing: 87 
+Cloud Cover: 1 
+Uv Index: 3 
+Visibility: 10 
+Ozone: 271.25 
+
+Time: September 27, 2017 at 01:00PM 
+Summary: Overcast 
+Precip Intensity: 0.0029 
+Precip Probability: 0.12 
+Precip Type: rain 
+Temperature: 51.85 
+Apparent Temperature: 51.85 
+Dew Point: 44.66 
+Humidity: 0.76 
+Pressure: 1023.69 
+Wind Speed: 5.62 
+Wind Gust: 7.19 
+Wind Bearing: 92 
+Cloud Cover: 0.95 
+Uv Index: 4 
+Visibility: 10 
+Ozone: 270.21 
+
+Time: September 27, 2017 at 02:00PM 
+Summary: Mostly Cloudy 
+Precip Intensity: 0.0024 
+Precip Probability: 0.11 
+Precip Type: rain 
+Temperature: 52.22 
+Apparent Temperature: 52.22 
+Dew Point: 44.54 
+Humidity: 0.75 
+Pressure: 1023.12 
+Wind Speed: 6.33 
+Wind Gust: 7.86 
+Wind Bearing: 100 
+Cloud Cover: 0.93 
+Uv Index: 3 
+Visibility: 10 
+Ozone: 269.31 
+
+Time: September 27, 2017 at 03:00PM 
+Summary: Mostly Cloudy 
+Precip Intensity: 0.003 
+Precip Probability: 0.13 
+Precip Type: rain 
+Temperature: 52.16 
+Apparent Temperature: 52.16 
+Dew Point: 44.37 
+Humidity: 0.75 
+Pressure: 1022.77 
+Wind Speed: 6.67 
+Wind Gust: 8.41 
+Wind Bearing: 104 
+Cloud Cover: 0.9 
+Uv Index: 2 
+Visibility: 10 
+Ozone: 268.21 
+
+Time: September 27, 2017 at 04:00PM 
+Summary: Mostly Cloudy 
+Precip Intensity: 0.0034 
+Precip Probability: 0.16 
+Precip Type: rain 
+Temperature: 52.08 
+Apparent Temperature: 52.08 
+Dew Point: 44.11 
+Humidity: 0.74 
+Pressure: 1022.6 
+Wind Speed: 6.37 
+Wind Gust: 8.7 
+Wind Bearing: 103 
+Cloud Cover: 0.86 
+Uv Index: 1 
+Visibility: 10 
+Ozone: 267.11 
+
+Time: September 27, 2017 at 05:00PM 
+Summary: Mostly Cloudy 
+Precip Intensity: 0.0042 
+Precip Probability: 0.19 
+Precip Type: rain 
+Temperature: 51.96 
+Apparent Temperature: 51.96 
+Dew Point: 43.81 
+Humidity: 0.74 
+Pressure: 1022.64 
+Wind Speed: 5.62 
+Wind Gust: 8.85 
+Wind Bearing: 103 
+Cloud Cover: 0.81 
+Uv Index: 1 
+Visibility: 10 
+Ozone: 266.02 
+
+Time: September 27, 2017 at 06:00PM 
+Summary: Drizzle 
+Precip Intensity: 0.0062 
+Precip Probability: 0.25 
+Precip Type: rain 
+Temperature: 51.45 
+Apparent Temperature: 51.45 
+Dew Point: 43.66 
+Humidity: 0.75 
+Pressure: 1022.91 
+Wind Speed: 4.89 
+Wind Gust: 8.99 
+Wind Bearing: 109 
+Cloud Cover: 0.79 
+Uv Index: 0 
+Visibility: 10 
+Ozone: 265.05 
+
+Time: September 27, 2017 at 07:00PM 
+Summary: Light Rain 
+Precip Intensity: 0.0093 
+Precip Probability: 0.31 
+Precip Type: rain 
+Temperature: 50.54 
+Apparent Temperature: 50.54 
+Dew Point: 43.76 
+Humidity: 0.77 
+Pressure: 1023.63 
+Wind Speed: 4.44 
+Wind Gust: 9.33 
+Wind Bearing: 121 
+Cloud Cover: 0.85 
+Uv Index: 0 
+Visibility: 10 
+Ozone: 264.52 
+
+Time: September 27, 2017 at 08:00PM 
+Summary: Light Rain 
+Precip Intensity: 0.0142 
+Precip Probability: 0.39 
+Precip Type: rain 
+Temperature: 49.56 
+Apparent Temperature: 48.28 
+Dew Point: 44.04 
+Humidity: 0.81 
+Pressure: 1024.6 
+Wind Speed: 4.11 
+Wind Gust: 9.67 
+Wind Bearing: 141 
+Cloud Cover: 0.93 
+Uv Index: 0 
+Visibility: 10 
+Ozone: 264.11 
+
+Time: September 27, 2017 at 09:00PM 
+Summary: Light Rain 
+Precip Intensity: 0.021 
+Precip Probability: 0.46 
+Precip Type: rain 
+Temperature: 48.81 
+Apparent Temperature: 47.64 
+Dew Point: 44.21 
+Humidity: 0.84 
+Pressure: 1025.36 
+Wind Speed: 3.81 
+Wind Gust: 9.62 
+Wind Bearing: 160 
+Cloud Cover: 1 
+Uv Index: 0 
+Visibility: 10 
+Ozone: 263.83 
+
+Time: September 27, 2017 at 10:00PM 
+Summary: Light Rain 
+Precip Intensity: 0.0309 
+Precip Probability: 0.52 
+Precip Type: rain 
+Temperature: 48.37 
+Apparent Temperature: 47.44 
+Dew Point: 44.15 
+Humidity: 0.85 
+Pressure: 1025.71 
+Wind Speed: 3.44 
+Wind Gust: 8.83 
+Wind Bearing: 158 
+Cloud Cover: 1 
+Uv Index: 0 
+Visibility: 10 
+Ozone: 263.32 
+
+Time: September 27, 2017 at 11:00PM 
+Summary: Light Rain 
+Precip Intensity: 0.046 
+Precip Probability: 0.59 
+Precip Type: rain 
+Temperature: 48.02 
+Apparent Temperature: 47.08 
+Dew Point: 43.95 
+Humidity: 0.86 
+Pressure: 1025.89 
+Wind Speed: 3.38 
+Wind Gust: 7.65 
+Wind Bearing: 151 
+Cloud Cover: 1 
+Uv Index: 0 
+Visibility: 10 
+Ozone: 262.72 
+
+Time: September 28, 2017 at 12:00AM 
+Summary: Rain 
+Precip Intensity: 0.0626 
+Precip Probability: 0.63 
+Precip Type: rain 
+Temperature: 47.63 
+Apparent Temperature: 46.59 
+Dew Point: 43.9 
+Humidity: 0.87 
+Pressure: 1025.99 
+Wind Speed: 3.44 
+Wind Gust: 6.84 
+Wind Bearing: 144 
+Cloud Cover: 1 
+Uv Index: 0 
+Visibility: 10 
+Ozone: 262.35 
+
+Time: September 28, 2017 at 01:00AM 
+Summary: Rain 
+Precip Intensity: 0.0807 
+Precip Probability: 0.66 
+Precip Type: rain 
+Temperature: 46.99 
+Apparent Temperature: 45.66 
+Dew Point: 44.18 
+Humidity: 0.9 
+Pressure: 1026.13 
+Wind Speed: 3.67 
+Wind Gust: 6.72 
+Wind Bearing: 133 
+Cloud Cover: 1 
+Uv Index: 0 
+Visibility: 10 
+Ozone: 262.19 
+
+Time: September 28, 2017 at 02:00AM 
+Summary: Rain 
+Precip Intensity: 0.0977 
+Precip Probability: 0.68 
+Precip Type: rain 
+Temperature: 46.54 
+Apparent Temperature: 44.8 
+Dew Point: 44.56 
+Humidity: 0.93 
+Pressure: 1026.18 
+Wind Speed: 4.1 
+Wind Gust: 7 
+Wind Bearing: 117 
+Cloud Cover: 1 
+Uv Index: 0 
+Visibility: 10 
+Ozone: 262.29 
+
+Time: September 28, 2017 at 03:00AM 
+Summary: Rain 
+Precip Intensity: 0.0974 
+Precip Probability: 0.68 
+Precip Type: rain 
+Temperature: 46.17 
+Apparent Temperature: 44.06 
+Dew Point: 44.7 
+Humidity: 0.95 
+Pressure: 1026.17 
+Wind Speed: 4.51 
+Wind Gust: 7.35 
+Wind Bearing: 108 
+Cloud Cover: 1 
+Uv Index: 0 
+Visibility: 10 
+Ozone: 262.66 
+
+Time: September 28, 2017 at 04:00AM 
+Summary: Rain 
+Precip Intensity: 0.068 
+Precip Probability: 0.64 
+Precip Type: rain 
+Temperature: 46.1 
+Apparent Temperature: 43.63 
+Dew Point: 44.36 
+Humidity: 0.94 
+Pressure: 1026.03 
+Wind Speed: 5.02 
+Wind Gust: 7.78 
+Wind Bearing: 103 
+Cloud Cover: 1 
+Uv Index: 0 
+Visibility: 10 
+Ozone: 263.89 
+
+Time: September 28, 2017 at 05:00AM 
+Summary: Light Rain 
+Precip Intensity: 0.0332 
+Precip Probability: 0.54 
+Precip Type: rain 
+Temperature: 45.93 
+Apparent Temperature: 43.11 
+Dew Point: 43.79 
+Humidity: 0.92 
+Pressure: 1025.84 
+Wind Speed: 5.52 
+Wind Gust: 8.37 
+Wind Bearing: 102 
+Cloud Cover: 0.99 
+Uv Index: 0 
+Visibility: 10 
+Ozone: 265.4 
+
+Time: September 28, 2017 at 06:00AM 
+Summary: Light Rain 
+Precip Intensity: 0.0142 
+Precip Probability: 0.41 
+Precip Type: rain 
+Temperature: 45.57 
+Apparent Temperature: 42.53 
+Dew Point: 43.42 
+Humidity: 0.92 
+Pressure: 1025.74 
+Wind Speed: 5.77 
+Wind Gust: 8.86 
+Wind Bearing: 105 
+Cloud Cover: 0.99 
+Uv Index: 0 
+Visibility: 10 
+Ozone: 266.39 
+
+Time: September 28, 2017 at 07:00AM 
+Summary: Drizzle 
+Precip Intensity: 0.0059 
+Precip Probability: 0.27 
+Precip Type: rain 
+Temperature: 44.91 
+Apparent Temperature: 41.91 
+Dew Point: 43.27 
+Humidity: 0.94 
+Pressure: 1025.84 
+Wind Speed: 5.51 
+Wind Gust: 8.99 
+Wind Bearing: 112 
+Cloud Cover: 0.98 
+Uv Index: 0 
+Visibility: 10 
+Ozone: 266.39 
+
+Time: September 28, 2017 at 08:00AM 
+Summary: Overcast 
+Precip Intensity: 0.0032 
+Precip Probability: 0.2 
+Precip Type: rain 
+Temperature: 44.87 
+Apparent Temperature: 42.15 
+Dew Point: 43.42 
+Humidity: 0.95 
+Pressure: 1026.07 
+Wind Speed: 5.06 
+Wind Gust: 8.93 
+Wind Bearing: 120 
+Cloud Cover: 0.98 
+Uv Index: 0 
+Visibility: 10 
+Ozone: 265.77 
+
+Time: September 28, 2017 at 09:00AM 
+Summary: Overcast 
+Precip Intensity: 0.0033 
+Precip Probability: 0.2 
+Precip Type: rain 
+Temperature: 45.67 
+Apparent Temperature: 43.34 
+Dew Point: 43.69 
+Humidity: 0.93 
+Pressure: 1026.12 
+Wind Speed: 4.7 
+Wind Gust: 8.52 
+Wind Bearing: 121 
+Cloud Cover: 0.97 
+Uv Index: 1 
+Visibility: 10 
+Ozone: 264.89 
+
+Time: September 28, 2017 at 10:00AM 
+Summary: Overcast 
+Precip Intensity: 0.0032 
+Precip Probability: 0.19 
+Precip Type: rain 
+Temperature: 47.1 
+Apparent Temperature: 45.14 
+Dew Point: 43.99 
+Humidity: 0.89 
+Pressure: 1025.88 
+Wind Speed: 4.5 
+Wind Gust: 7.46 
+Wind Bearing: 116 
+Cloud Cover: 0.96 
+Uv Index: 2 
+Visibility: 10 
+Ozone: 263.52 
+
+Time: September 28, 2017 at 11:00AM 
+Summary: Drizzle 
+Precip Intensity: 0.0075 
+Precip Probability: 0.26 
+Precip Type: rain 
+Temperature: 48.65 
+Apparent Temperature: 47.13 
+Dew Point: 44.32 
+Humidity: 0.85 
+Pressure: 1025.53 
+Wind Speed: 4.25 
+Wind Gust: 6.03 
+Wind Bearing: 100 
+Cloud Cover: 0.94 
+Uv Index: 3 
+Visibility: 10 
+Ozone: 262.07 
+
+Time: September 28, 2017 at 12:00PM 
+Summary: Light Rain 
+Precip Intensity: 0.0119 
+Precip Probability: 0.28 
+Precip Type: rain 
+Temperature: 49.88 
+Apparent Temperature: 48.6 
+Dew Point: 44.59 
+Humidity: 0.82 
+Pressure: 1025.06 
+Wind Speed: 4.18 
+Wind Gust: 5.07 
+Wind Bearing: 83 
+Cloud Cover: 0.94 
+Uv Index: 4 
+Visibility: 10 
+Ozone: 261.06 
+
+Time: September 28, 2017 at 01:00PM 
+Summary: Drizzle 
+Precip Intensity: 0.0075 
+Precip Probability: 0.23 
+Precip Type: rain 
+Temperature: 50.67 
+Apparent Temperature: 50.67 
+Dew Point: 44.73 
+Humidity: 0.8 
+Pressure: 1024.41 
+Wind Speed: 4.47 
+Wind Gust: 4.96 
+Wind Bearing: 75 
+Cloud Cover: 0.96 
+Uv Index: 4 
+Visibility: 10 
+Ozone: 260.96 
+
+Time: September 28, 2017 at 02:00PM 
+Summary: Overcast 
+Precip Intensity: 0.0027 
+Precip Probability: 0.15 
+Precip Type: rain 
+Temperature: 51.07 
+Apparent Temperature: 51.07 
+Dew Point: 44.78 
+Humidity: 0.79 
+Pressure: 1023.7 
+Wind Speed: 4.95 
+Wind Gust: 5.37 
+Wind Bearing: 70 
+Cloud Cover: 0.98 
+Uv Index: 3 
+Visibility: 10 
+Ozone: 261.42 
+
+Time: September 28, 2017 at 03:00PM 
+Summary: Overcast 
+Precip Intensity: 0.0025 
+Precip Probability: 0.15 
+Precip Type: rain 
+Temperature: 51.17 
+Apparent Temperature: 51.17 
+Dew Point: 44.88 
+Humidity: 0.79 
+Pressure: 1023.12 
+Wind Speed: 5.29 
+Wind Gust: 5.7 
+Wind Bearing: 67 
+Cloud Cover: 1 
+Uv Index: 2 
+Visibility: 10 
+Ozone: 261.84 
+
+Time: September 28, 2017 at 04:00PM 
+Summary: Overcast 
+Precip Intensity: 0.0033 
+Precip Probability: 0.16 
+Precip Type: rain 
+Temperature: 51.24 
+Apparent Temperature: 51.24 
+Dew Point: 45.09 
+Humidity: 0.79 
+Pressure: 1022.82 
+Wind Speed: 5.35 
+Wind Gust: 5.81 
+Wind Bearing: 67 
+Cloud Cover: 0.99 
+Uv Index: 1 
+Visibility: 10 
+Ozone: 262.2 
+
+Time: September 28, 2017 at 05:00PM 
+Summary: Overcast 
+Precip Intensity: 0.0045 
+Precip Probability: 0.18 
+Precip Type: rain 
+Temperature: 51.53 
+Apparent Temperature: 51.53 
+Dew Point: 45.34 
+Humidity: 0.79 
+Pressure: 1022.69 
+Wind Speed: 5.3 
+Wind Gust: 5.87 
+Wind Bearing: 69 
+Cloud Cover: 0.98 
+Uv Index: 1 
+Visibility: 10 
+Ozone: 262.44 
+
+Time: September 28, 2017 at 06:00PM 
+Summary: Drizzle 
+Precip Intensity: 0.0063 
+Precip Probability: 0.19 
+Precip Type: rain 
+Temperature: 51.43 
+Apparent Temperature: 51.43 
+Dew Point: 45.49 
+Humidity: 0.8 
+Pressure: 1022.78 
+Wind Speed: 5.17 
+Wind Gust: 5.91 
+Wind Bearing: 72 
+Cloud Cover: 0.95 
+Uv Index: 0 
+Visibility: 10 
+Ozone: 262.92

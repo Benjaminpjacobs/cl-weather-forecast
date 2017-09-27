@@ -2,20 +2,23 @@ gem 'minitest'
 require 'pry'
 require 'minitest/autorun'
 require 'webmock/rspec'
+require_relative './test_helper'
 
-WebMock.stub_request(:get, "https://www.zipcodeapi.com/rest/yruKeJMZU3uXpx42ZmxaLpiCyjzgmF5V6zFkiskdvPaVmfXlCvwoUP0s8AJvgOqn/info.json//degrees").
+include KeyUtils
+
+WebMock.stub_request(:get, "https://www.zipcodeapi.com/rest/#{zipcode_key}/info.json//degrees").
 with(headers: {'Accept'=>'*/*', 'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3', 'Host'=>'www.zipcodeapi.com', 'User-Agent'=>'Ruby'}).
 to_return(status: 200, body: "{}", headers: {})
 
-WebMock.stub_request(:get, "https://api.darksky.net/forecast/640644acf3d2e971e41cef9646c4f0aa/,").
+WebMock.stub_request(:get, "https://api.darksky.net/forecast/#{darksky_key}/,").
 with(headers: {'Accept'=>'*/*', 'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3', 'Host'=>'api.darksky.net', 'User-Agent'=>'Ruby'}).
 to_return(status: 200, body: "{}", headers: {})
 
-WebMock.stub_request(:get, "https://www.zipcodeapi.com/rest/yruKeJMZU3uXpx42ZmxaLpiCyjzgmF5V6zFkiskdvPaVmfXlCvwoUP0s8AJvgOqn/info.json/80210/degrees").
+WebMock.stub_request(:get, "https://www.zipcodeapi.com/rest/#{zipcode_key}/info.json/80210/degrees").
 with(headers: {'Accept'=>'*/*', 'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3', 'Host'=>'www.zipcodeapi.com', 'User-Agent'=>'Ruby'}).
 to_return(status: 200, body: "{\"lat\":\"0.692488\",\"lng\":\"-1.83194\"}", headers: {})
 
-WebMock.stub_request(:get, "https://api.darksky.net/forecast/640644acf3d2e971e41cef9646c4f0aa/0.692488,-1.83194").
+WebMock.stub_request(:get, "https://api.darksky.net/forecast/#{darksky_key}/0.692488,-1.83194").
 with(headers: {'Accept'=>'*/*', 'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3', 'Host'=>'api.darksky.net', 'User-Agent'=>'Ruby'}).
 to_return(status: 200, body: "{\"latitude\": \"\", \"longitude\": \"\", \"timezone\": \"\", \"currently\": \{\"time\": 1506456905,
 \"summary\":\"Partly Cloudy\",
