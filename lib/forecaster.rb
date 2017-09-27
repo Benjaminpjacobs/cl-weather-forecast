@@ -48,7 +48,5 @@ class Forecaster
 end
 
 ######
-forecast = Forecaster.new(ARGV)
-forecast.print_weather
 
 
